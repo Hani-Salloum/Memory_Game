@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="control-buttons">
+        <span>Start Game</span>
+    </div>
+    <div class="timer">
+        <span class="mins"></span>
+        :
+        <span class="seconds"></span>
+    </div>
+    <div class="info-container">
+        <div class="name">
+            Hello: <span></span>
+        </div>
+        <div class="best-score">
+            Best Score: <span></span> Wrong Tries By <span class="name"></span>
+        </div>
+        <div class="tries">
+            Wrong Tries: <span>0</span>
+        </div>
+    </div>
+    <div class="memory-game-blocks">
+        <div class="game-block" data-club="arsenal">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="imgs/arsenal.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-club="arsenal">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="imgs/arsenal.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-club="liverpool">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="imgs/liverpool.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-club="liverpool">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="imgs/liverpool.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-club="man-city">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="imgs/man-city.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-club="man-city">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="imgs/man-city.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-club="man-utd">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="imgs/man-utd.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-club="man-utd">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="imgs/man-utd.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-club="brentford">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="imgs/brentford.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-club="brentford">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="imgs/brentford.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-club="brighton">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="imgs/brighton.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-club="brighton">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="imgs/brighton.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-club="westham">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="imgs/westham.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-club="westham">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="imgs/westham.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-club="fulham">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="imgs/fulham.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-club="fulham">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="imgs/fulham.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-club="aston-villa">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="imgs/aston-villa.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-club="aston-villa">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="imgs/aston-villa.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-club="newcastle">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="imgs/newcastle.png" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-club="newcastle">
+            <div class="face front"></div>
+            <div class=" face back">
+                <img src="imgs/newcastle.png" alt="">
+            </div>
+        </div>
+    </div>
+    <audio id="success" src="audio/success.m4a" preload="auto"></audio>
+    <audio id="fail" src="audio/fail-2.mp3" preload="auto"></audio>
+    <audio id="losing" src="audio/fail-1.mp3" preload="auto"></audio>
+    <script src="main.js"></script>
+</body>
+
+</html>
